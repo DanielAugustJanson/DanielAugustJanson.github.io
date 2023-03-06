@@ -119,16 +119,21 @@ a:hover{
     font-weight: 400;
 }
 
+.play-box{
+    width: 10rem;
+    overflow: none;
+}
 
 
 .play{
     padding: 1rem;
-    
+
 }
 
+
 .play img{
-    width: 30rem;
-    height: 20rem;
+    width: 100%;
+    height: 30vh;
 }
 
 .play-menu a{
@@ -138,10 +143,13 @@ a:hover{
 	cursor:pointer;
 	color:#000000;
 	font-family: Lausanne, sans-serif;
-	font-size:28px;
 	padding:0px 0px;
 	text-decoration:none;
+}
 
+.play-date p,a{
+    font-family: Lausanne, sans-serif;
+    font-size: 1.5rem;
 }
 
 
