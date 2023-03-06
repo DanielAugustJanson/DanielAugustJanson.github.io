@@ -136,7 +136,7 @@ a:hover{
     height: 30vh;
 }
 
-.play-menu a{
+.play-menu p{
     background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
 	background-color:#ffffff;
 	display:inline-block;
