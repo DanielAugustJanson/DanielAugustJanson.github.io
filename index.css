@@ -95,6 +95,10 @@ a:hover{
     font-weight: 500;
 }
 
+article h2:hover{
+    color: var(--hover-color);
+}
+
 .article-text{
     align-items: flex-end;
     
@@ -176,6 +180,10 @@ a:hover{
     cursor: pointer;
 }
 
+.footer-box{
+    width: 90%;
+    padding-top: 3vh;
+}
 
 .footer-element div{
     font-size: 1.3rem;
@@ -195,4 +203,62 @@ a:hover{
 
 }
 
+.kava-element{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
 
+.line-slim{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 1vh;
+}
+
+.etendused{
+    width: 100%;
+}
+
+.kava-etendus h3{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.kava-etendus h3:hover{
+    color: #f78330;
+}
+
+.kava-etendus h4{
+    font-weight: 500;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.kava-etendus{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+}
+
+.kava-date{
+    width: 15vh;
+}
+
+#kavaref{
+    position: relative;
+    align-self: flex-end;
+    padding: 5vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .content h1{
+        font-size: 3rem;
+    }
+    
+    .article-text{
+        flex-direction: column-reverse;
+    }
+    
+    .footer-box{
+        width: 100%;
+    }
+    .footer-element div{
+        font-size: 1rem;
+    }
+    
+  }
